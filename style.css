@@ -66,3 +66,21 @@ justify-content: space-between;
     
 }
 
+.video-item {
+    margin: 20px;
+    flex-grow: 1;
+    height: 200px;
+}
+
+.section-header {
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.section-counter {
+    border: 1px solid gray;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 2px 15px ;
+}
