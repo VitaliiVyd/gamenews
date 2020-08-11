@@ -31,7 +31,7 @@ justify-content: space-between;
 }
 
 .nav-item:hover{
-    color: #f79106;
+    color:  #EBB61E;
 }
 
 .logo {
@@ -45,7 +45,7 @@ justify-content: space-between;
 }
 
 .text {
-    color:#f79106;
+    color: #EBB61E;
     margin-left: 10px;
 }
 
@@ -56,9 +56,10 @@ justify-content: space-between;
 
 .top-news-block {
     display: flex;
+    height: 300px;
 }
 
-.top-news-video {
+.section-video {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -71,6 +72,8 @@ justify-content: space-between;
     margin: 20px;
     flex-grow: 1;
     height: 200px;
+    border: 2px solid gray;
+    border-radius: 20px;
 }
 
 .section-header {
@@ -84,4 +87,10 @@ justify-content: space-between;
     margin-left: 10px;
     border-radius: 20px;
     padding: 2px 15px ;
+}
+
+.top-news-video {
+    border: 2px solid gray; 
+    width: 80%;
+    border-radius: 20px;
 }
